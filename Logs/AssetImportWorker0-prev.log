@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.9f1 (ed7b183fd33d) revision 15563544'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 32469 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-11-13T11:40:52Z
+Date: 2025-11-13T16:13:10Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.1.9f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/usolt/OneDrive/Рабочий стол/Unity учебный проек�
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62627
+21604
 -job-worker-count
 5
 -background-job-worker-count
@@ -62,16 +62,14 @@ C:/Users/usolt/OneDrive/Рабочий стол/Unity учебный проек�
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14464]  Target information:
+Player connection [18244]  Target information:
 
-Player connection [14464]  * "[IP] 26.104.203.244 [Port] 0 [Flags] 2 [Guid] 2721827359 [EditorId] 2721827359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KP2HDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18244]  * "[IP] 26.104.203.244 [Port] 0 [Flags] 2 [Guid] 1695913009 [EditorId] 1695913009 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KP2HDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14464]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2721827359 [EditorId] 2721827359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KP2HDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18244]  * "[IP] 192.168.31.182 [Port] 0 [Flags] 2 [Guid] 1695913009 [EditorId] 1695913009 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KP2HDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14464]  * "[IP] 10.241.28.89 [Port] 0 [Flags] 2 [Guid] 2721827359 [EditorId] 2721827359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KP2HDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [14464] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18244] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 196.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.9f1 (ed7b183fd33d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.1.9f1/Editor/Data/Resources/UnitySubsystems
@@ -100,43 +98,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003017 seconds.
-- Loaded All Assemblies, in  2.775 seconds
+Registered in 0.003281 seconds.
+- Loaded All Assemblies, in  0.705 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.541 seconds
-Domain Reload Profiling: 3311ms
-	BeginReloadAssembly (641ms)
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1353ms
+	BeginReloadAssembly (214ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (515ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (1526ms)
-		LoadAssemblies (635ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (208ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1520ms)
-			TypeCache.Refresh (1518ms)
-				TypeCache.ScanAssembly (1111ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (233ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (541ms)
+	FinalizeReload (652ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (478ms)
+		SetupLoadedEditorAssemblies (573ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (70ms)
+			InitializePlatformSupportModulesInManaged (89ms)
 			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,994 +143,1466 @@ Domain Reload Profiling: 3311ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.353 seconds
-Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.354 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.230 seconds
-Domain Reload Profiling: 4575ms
-	BeginReloadAssembly (262ms)
+- Finished resetting the current domain, in  1.460 seconds
+Domain Reload Profiling: 2808ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (910ms)
+		LoadAssemblies (650ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (409ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (278ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1164ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (379ms)
+			ProcessInitializeOnLoadAttributes (665ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6134 unused Assets / (4.7 MB). Loaded Objects now: 6850.
+Memory consumption went from 166.5 MB to 161.9 MB.
+Total: 15.836200 ms (FindLiveObjects: 0.986400 ms CreateObjectMapping: 1.196200 ms MarkObjects: 8.972500 ms  DeleteObjects: 4.679100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1453.803749 seconds.
+  path: Assets/Scripts/Player Car/CarView.cs
+  artifactKey: Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarView.cs using Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b11130dbba747786a2ce519ba8a89f5d') in 0.0161478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 516.566554 seconds.
+  path: Assets/Ezereal Assets/Ezereal Car Controller/Scripts/EzerealSuspensionBumpDetector.cs
+  artifactKey: Guid(fc597894ab6fa164fb197f14ad497240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ezereal Assets/Ezereal Car Controller/Scripts/EzerealSuspensionBumpDetector.cs using Guid(fc597894ab6fa164fb197f14ad497240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05b7757a57e2e6cd2987667dfa3b42c') in 0.0012623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.401926 seconds.
+  path: Assets/Ezereal Assets/Ezereal Car Controller/Scripts/EzerealWheelFrictionController.cs
+  artifactKey: Guid(c79775ea9db4b154197558aa8e4b2d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ezereal Assets/Ezereal Car Controller/Scripts/EzerealWheelFrictionController.cs using Guid(c79775ea9db4b154197558aa8e4b2d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50186897d35cd14df010ed97c260913c') in 0.0009392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.6 MB). Loaded Objects now: 6852.
+Memory consumption went from 134.9 MB to 130.3 MB.
+Total: 19.613400 ms (FindLiveObjects: 0.773100 ms CreateObjectMapping: 0.920300 ms MarkObjects: 14.108500 ms  DeleteObjects: 3.809100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.3 MB). Loaded Objects now: 6852.
+Memory consumption went from 137.6 MB to 133.3 MB.
+Total: 19.777000 ms (FindLiveObjects: 1.146600 ms CreateObjectMapping: 1.026700 ms MarkObjects: 9.156600 ms  DeleteObjects: 8.445000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.2 MB). Loaded Objects now: 6852.
+Memory consumption went from 140.3 MB to 136.1 MB.
+Total: 13.278300 ms (FindLiveObjects: 0.716300 ms CreateObjectMapping: 0.674500 ms MarkObjects: 8.159000 ms  DeleteObjects: 3.726700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.3 MB). Loaded Objects now: 6852.
+Memory consumption went from 143.0 MB to 138.8 MB.
+Total: 21.641600 ms (FindLiveObjects: 1.012700 ms CreateObjectMapping: 2.252600 ms MarkObjects: 12.532400 ms  DeleteObjects: 5.841600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (3.8 MB). Loaded Objects now: 6852.
+Memory consumption went from 145.8 MB to 142.0 MB.
+Total: 15.887200 ms (FindLiveObjects: 1.143900 ms CreateObjectMapping: 0.879200 ms MarkObjects: 10.280900 ms  DeleteObjects: 3.581000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.4 MB). Loaded Objects now: 6852.
+Memory consumption went from 148.5 MB to 144.1 MB.
+Total: 10.314800 ms (FindLiveObjects: 0.767600 ms CreateObjectMapping: 1.027900 ms MarkObjects: 5.722100 ms  DeleteObjects: 2.794500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 949.352613 seconds.
+  path: Assets/Ezereal Assets/Ezereal Car Controller/Scripts/EzerealCarController.cs
+  artifactKey: Guid(46348285f23b1144dad9e361a04831c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ezereal Assets/Ezereal Car Controller/Scripts/EzerealCarController.cs using Guid(46348285f23b1144dad9e361a04831c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf5f346338ade600bc9253ce124619af') in 0.0020823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.6 MB). Loaded Objects now: 6852.
+Memory consumption went from 135.0 MB to 130.4 MB.
+Total: 14.566400 ms (FindLiveObjects: 0.889700 ms CreateObjectMapping: 0.787100 ms MarkObjects: 8.646200 ms  DeleteObjects: 4.241300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.2 MB). Loaded Objects now: 6852.
+Memory consumption went from 137.7 MB to 133.5 MB.
+Total: 12.926900 ms (FindLiveObjects: 0.779100 ms CreateObjectMapping: 0.689000 ms MarkObjects: 8.648600 ms  DeleteObjects: 2.808300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.2 MB). Loaded Objects now: 6852.
+Memory consumption went from 140.4 MB to 136.2 MB.
+Total: 11.363800 ms (FindLiveObjects: 0.945300 ms CreateObjectMapping: 0.948200 ms MarkObjects: 6.435700 ms  DeleteObjects: 3.032900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.0 MB). Loaded Objects now: 6852.
+Memory consumption went from 143.1 MB to 139.1 MB.
+Total: 10.387500 ms (FindLiveObjects: 0.719100 ms CreateObjectMapping: 0.738500 ms MarkObjects: 6.506100 ms  DeleteObjects: 2.422300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1134.576469 seconds.
+  path: Assets/Scripts/Player Car/CarController.cs
+  artifactKey: Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarController.cs using Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db2834e20dd50258da8174fd3bdc78b9') in 0.0015253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.328868 seconds.
+  path: Assets/Scripts/Player Car/CarInput.cs
+  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc66e1314b92701a69e8ad14e5ce3e8') in 0.001215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.992302 seconds.
+  path: Assets/Scripts/Player Car/CarModel.cs
+  artifactKey: Guid(0f89351417a26ea499ec73312817c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarModel.cs using Guid(0f89351417a26ea499ec73312817c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ecb51f9936e348ea2a67eb35f530c4d') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.853870 seconds.
+  path: Assets/Scripts/Player Car/CarView.cs
+  artifactKey: Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarView.cs using Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92f5534be6cce174d99113a7fb105e1') in 0.0011936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.3 MB). Loaded Objects now: 6852.
+Memory consumption went from 135.0 MB to 130.7 MB.
+Total: 10.828700 ms (FindLiveObjects: 0.778800 ms CreateObjectMapping: 0.706000 ms MarkObjects: 6.452500 ms  DeleteObjects: 2.889200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (5.7 MB). Loaded Objects now: 6852.
+Memory consumption went from 137.7 MB to 131.9 MB.
+Total: 85.663100 ms (FindLiveObjects: 0.897600 ms CreateObjectMapping: 1.455300 ms MarkObjects: 14.817700 ms  DeleteObjects: 68.490200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.4 MB). Loaded Objects now: 6852.
+Memory consumption went from 140.4 MB to 136.0 MB.
+Total: 10.585600 ms (FindLiveObjects: 0.727400 ms CreateObjectMapping: 0.775100 ms MarkObjects: 5.884900 ms  DeleteObjects: 3.196000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (3.9 MB). Loaded Objects now: 6852.
+Memory consumption went from 143.1 MB to 139.2 MB.
+Total: 10.796000 ms (FindLiveObjects: 0.799600 ms CreateObjectMapping: 0.833400 ms MarkObjects: 6.194300 ms  DeleteObjects: 2.966900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.6 MB). Loaded Objects now: 6852.
+Memory consumption went from 145.8 MB to 141.2 MB.
+Total: 35.153300 ms (FindLiveObjects: 1.348700 ms CreateObjectMapping: 1.731900 ms MarkObjects: 28.212600 ms  DeleteObjects: 3.857800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1458.684569 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385d1704f9087b1620c07475557ffcdc') in 1.1819218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 537
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.280 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.185 seconds
+Domain Reload Profiling: 2461ms
+	BeginReloadAssembly (390ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (777ms)
+		LoadAssemblies (648ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (966ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (285ms)
+			ProcessInitializeOnLoadAttributes (596ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.0 MB). Loaded Objects now: 6901.
+Memory consumption went from 149.6 MB to 145.5 MB.
+Total: 8.461800 ms (FindLiveObjects: 0.740400 ms CreateObjectMapping: 0.705000 ms MarkObjects: 4.602300 ms  DeleteObjects: 2.413000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 140.719734 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e59cf469af5c56cd6adb2a2ada3cca70') in 0.7247196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 541
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.095 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.284 seconds
+Domain Reload Profiling: 2393ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (668ms)
+		LoadAssemblies (516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (256ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1299ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1009ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (615ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.4 MB). Loaded Objects now: 6924.
+Memory consumption went from 147.7 MB to 143.3 MB.
+Total: 12.449800 ms (FindLiveObjects: 0.900000 ms CreateObjectMapping: 0.942100 ms MarkObjects: 7.129600 ms  DeleteObjects: 3.475700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.559 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.907 seconds
+Domain Reload Profiling: 3464ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (442ms)
+	LoadAllAssembliesAndSetupDomain (745ms)
+		LoadAssemblies (631ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (228ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (657ms)
+			ProcessInitializeOnLoadAttributes (852ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6130 unused Assets / (4.0 MB). Loaded Objects now: 6927.
+Memory consumption went from 150.3 MB to 146.3 MB.
+Total: 14.079800 ms (FindLiveObjects: 1.107300 ms CreateObjectMapping: 0.909100 ms MarkObjects: 8.146000 ms  DeleteObjects: 3.914700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.4 MB). Loaded Objects now: 6927.
+Memory consumption went from 153.2 MB to 148.8 MB.
+Total: 11.046200 ms (FindLiveObjects: 0.855600 ms CreateObjectMapping: 0.819700 ms MarkObjects: 6.335400 ms  DeleteObjects: 3.033300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (4.1 MB). Loaded Objects now: 6928.
+Memory consumption went from 155.9 MB to 151.8 MB.
+Total: 17.502700 ms (FindLiveObjects: 1.598400 ms CreateObjectMapping: 2.158300 ms MarkObjects: 9.420700 ms  DeleteObjects: 4.322800 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 511.738107 seconds.
+  path: Assets/Car Controller.inputactions
+  artifactKey: Guid(8e9b51aacc939f446b9cc536e79d9915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Controller.inputactions using Guid(8e9b51aacc939f446b9cc536e79d9915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a465cb9606b69794392b91675d2054') in 0.0970494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.728346 seconds.
+  path: Assets/Car Controller.cs
+  artifactKey: Guid(11563db32d22e9b42a58c8765523b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Controller.cs using Guid(11563db32d22e9b42a58c8765523b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20c13069bbb33742735d63ef888507fa') in 0.0008147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6125 unused Assets / (4.2 MB). Loaded Objects now: 6929.
+Memory consumption went from 147.9 MB to 143.7 MB.
+Total: 10.409700 ms (FindLiveObjects: 0.852100 ms CreateObjectMapping: 1.140000 ms MarkObjects: 5.833800 ms  DeleteObjects: 2.582500 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.564235 seconds.
+  path: Assets/Car Buttons.inputactions
+  artifactKey: Guid(8e9b51aacc939f446b9cc536e79d9915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Buttons.inputactions using Guid(8e9b51aacc939f446b9cc536e79d9915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f71ab0b67cf5a3ae6017bc3baf31e6e') in 0.010453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (4.1 MB). Loaded Objects now: 6927.
+Memory consumption went from 147.8 MB to 143.7 MB.
+Total: 10.939100 ms (FindLiveObjects: 0.772100 ms CreateObjectMapping: 0.742900 ms MarkObjects: 6.345100 ms  DeleteObjects: 3.077300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.196 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.202 seconds
+Domain Reload Profiling: 2397ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (754ms)
+		LoadAssemblies (663ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (968ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (313ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.2 MB). Loaded Objects now: 6931.
+Memory consumption went from 150.4 MB to 146.2 MB.
+Total: 8.632900 ms (FindLiveObjects: 0.697200 ms CreateObjectMapping: 0.700000 ms MarkObjects: 4.836800 ms  DeleteObjects: 2.397600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.241727 seconds.
+  path: Assets/Car Buttons.cs
+  artifactKey: Guid(131b60828030ece44a3a0722aba6b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Buttons.cs using Guid(131b60828030ece44a3a0722aba6b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c205efa6c9e19457c7e05ed9ba295c11') in 0.0027817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (3.7 MB). Loaded Objects now: 6931.
+Memory consumption went from 147.8 MB to 144.1 MB.
+Total: 11.888100 ms (FindLiveObjects: 0.840300 ms CreateObjectMapping: 0.798300 ms MarkObjects: 7.639200 ms  DeleteObjects: 2.609200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.273 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.416 seconds
+Domain Reload Profiling: 2687ms
+	BeginReloadAssembly (323ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (803ms)
+		LoadAssemblies (652ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (394ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (3.8 MB). Loaded Objects now: 6934.
+Memory consumption went from 150.4 MB to 146.6 MB.
+Total: 9.267500 ms (FindLiveObjects: 0.788700 ms CreateObjectMapping: 0.736100 ms MarkObjects: 5.258200 ms  DeleteObjects: 2.482300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.105 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.364 seconds
+Domain Reload Profiling: 2467ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (1969ms)
-		LoadAssemblies (1830ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (704ms)
+		LoadAssemblies (565ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (289ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (192ms)
-			BuildScriptInfoCaches (63ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2231ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (239ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1364ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1231ms)
+		SetupLoadedEditorAssemblies (1137ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (316ms)
-			ProcessInitializeOnLoadAttributes (785ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (716ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6131 unused Assets / (4.4 MB). Loaded Objects now: 6847.
-Memory consumption went from 166.7 MB to 162.3 MB.
-Total: 14.886400 ms (FindLiveObjects: 1.100300 ms CreateObjectMapping: 0.731900 ms MarkObjects: 8.938900 ms  DeleteObjects: 4.113000 ms)
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (3.9 MB). Loaded Objects now: 6937.
+Memory consumption went from 153.1 MB to 149.2 MB.
+Total: 13.400600 ms (FindLiveObjects: 1.074800 ms CreateObjectMapping: 0.789800 ms MarkObjects: 8.005700 ms  DeleteObjects: 3.528400 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.439 seconds
-Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.186 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.479 seconds
-Domain Reload Profiling: 2917ms
-	BeginReloadAssembly (335ms)
+- Finished resetting the current domain, in  1.258 seconds
+Domain Reload Profiling: 2439ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (721ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (317ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.0 MB). Loaded Objects now: 6940.
+Memory consumption went from 155.8 MB to 151.8 MB.
+Total: 8.748400 ms (FindLiveObjects: 0.727100 ms CreateObjectMapping: 0.626500 ms MarkObjects: 4.697900 ms  DeleteObjects: 2.695400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 537.114923 seconds.
+  path: Assets/Car Buttons.inputactions
+  artifactKey: Guid(8e9b51aacc939f446b9cc536e79d9915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Buttons.inputactions using Guid(8e9b51aacc939f446b9cc536e79d9915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f42999d2ae01df4bfc6b8d27f30ce0e4') in 0.0364387 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6123 unused Assets / (4.2 MB). Loaded Objects now: 6939.
+Memory consumption went from 148.0 MB to 143.8 MB.
+Total: 10.033700 ms (FindLiveObjects: 0.782200 ms CreateObjectMapping: 0.710500 ms MarkObjects: 5.736700 ms  DeleteObjects: 2.803300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.147 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.243 seconds
+Domain Reload Profiling: 2388ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (975ms)
-		LoadAssemblies (754ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (713ms)
+		LoadAssemblies (573ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (408ms)
-			TypeCache.Refresh (17ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (18ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (350ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (1480ms)
+			BuildScriptInfoCaches (239ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1243ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1099ms)
+		SetupLoadedEditorAssemblies (1004ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (351ms)
-			ProcessInitializeOnLoadAttributes (649ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (304ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6130 unused Assets / (4.1 MB). Loaded Objects now: 6942.
+Memory consumption went from 150.5 MB to 146.3 MB.
+Total: 8.906900 ms (FindLiveObjects: 0.705400 ms CreateObjectMapping: 0.633500 ms MarkObjects: 4.754000 ms  DeleteObjects: 2.802300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (4.6 MB). Loaded Objects now: 6943.
+Memory consumption went from 153.4 MB to 148.7 MB.
+Total: 11.042200 ms (FindLiveObjects: 0.865100 ms CreateObjectMapping: 0.764500 ms MarkObjects: 5.977800 ms  DeleteObjects: 3.433000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.081 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.123 seconds
+Domain Reload Profiling: 2203ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1123ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (278ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6127 unused Assets / (3.6 MB). Loaded Objects now: 6863.
-Memory consumption went from 142.2 MB to 138.6 MB.
-Total: 10.817600 ms (FindLiveObjects: 0.808500 ms CreateObjectMapping: 0.650600 ms MarkObjects: 6.748600 ms  DeleteObjects: 2.607500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6120 unused Assets / (3.7 MB). Loaded Objects now: 6863.
-Memory consumption went from 143.3 MB to 139.6 MB.
-Total: 9.430900 ms (FindLiveObjects: 0.805000 ms CreateObjectMapping: 0.837200 ms MarkObjects: 5.322000 ms  DeleteObjects: 2.465000 ms)
+Unloading 6131 unused Assets / (4.2 MB). Loaded Objects now: 6946.
+Memory consumption went from 155.9 MB to 151.7 MB.
+Total: 9.267600 ms (FindLiveObjects: 0.777300 ms CreateObjectMapping: 0.675100 ms MarkObjects: 5.085600 ms  DeleteObjects: 2.727900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2373.233629 seconds.
-  path: Assets/Scripts/Player Car/CarModel.cs
-  artifactKey: Guid(0f89351417a26ea499ec73312817c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarModel.cs using Guid(0f89351417a26ea499ec73312817c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca397ba0890192ff8740b8621812fac4') in 0.029053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.865 seconds
-Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.754 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.009 seconds
-Domain Reload Profiling: 3871ms
-	BeginReloadAssembly (467ms)
+- Finished resetting the current domain, in  2.967 seconds
+Domain Reload Profiling: 4719ms
+	BeginReloadAssembly (533ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1023ms)
+		LoadAssemblies (807ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (379ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (305ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (700ms)
+			ProcessInitializeOnLoadAttributes (1648ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.0 MB). Loaded Objects now: 6949.
+Memory consumption went from 158.7 MB to 154.6 MB.
+Total: 37.557600 ms (FindLiveObjects: 3.084900 ms CreateObjectMapping: 4.043000 ms MarkObjects: 16.586500 ms  DeleteObjects: 13.835900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.306 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.995 seconds
+Domain Reload Profiling: 4301ms
+	BeginReloadAssembly (684ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (201ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (1200ms)
+		LoadAssemblies (1260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (398ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (345ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (469ms)
+			ProcessInitializeOnLoadAttributes (989ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.2 MB). Loaded Objects now: 6952.
+Memory consumption went from 161.3 MB to 157.1 MB.
+Total: 19.564400 ms (FindLiveObjects: 1.403200 ms CreateObjectMapping: 1.460400 ms MarkObjects: 10.914000 ms  DeleteObjects: 5.782900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.486 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.858 seconds
+Domain Reload Profiling: 3345ms
+	BeginReloadAssembly (416ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (155ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (1241ms)
-		LoadAssemblies (1027ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (928ms)
+		LoadAssemblies (734ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (400ms)
-			TypeCache.Refresh (18ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (327ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (500ms)
+			ProcessInitializeOnLoadAttributes (873ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.9 MB). Loaded Objects now: 6955.
+Memory consumption went from 164.1 MB to 159.2 MB.
+Total: 24.671400 ms (FindLiveObjects: 2.157700 ms CreateObjectMapping: 2.039500 ms MarkObjects: 12.403100 ms  DeleteObjects: 8.066300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (4.5 MB). Loaded Objects now: 6955.
+Memory consumption went from 167.0 MB to 162.5 MB.
+Total: 28.790700 ms (FindLiveObjects: 2.030400 ms CreateObjectMapping: 5.357600 ms MarkObjects: 14.421900 ms  DeleteObjects: 6.976900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.532 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.586 seconds
+Domain Reload Profiling: 3111ms
+	BeginReloadAssembly (415ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (955ms)
+		LoadAssemblies (799ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (22ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (346ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2010ms)
+			BuildScriptInfoCaches (297ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (441ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.0 MB). Loaded Objects now: 6958.
+Memory consumption went from 169.6 MB to 165.6 MB.
+Total: 13.758500 ms (FindLiveObjects: 1.118400 ms CreateObjectMapping: 0.961500 ms MarkObjects: 6.967000 ms  DeleteObjects: 4.709900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.523 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.782 seconds
+Domain Reload Profiling: 3304ms
+	BeginReloadAssembly (464ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (904ms)
+		LoadAssemblies (737ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (318ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (458ms)
+			ProcessInitializeOnLoadAttributes (809ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.6 MB). Loaded Objects now: 6961.
+Memory consumption went from 172.3 MB to 167.7 MB.
+Total: 19.529700 ms (FindLiveObjects: 1.626900 ms CreateObjectMapping: 2.038700 ms MarkObjects: 9.637900 ms  DeleteObjects: 6.222200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.582 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.719 seconds
+Domain Reload Profiling: 3301ms
+	BeginReloadAssembly (391ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1022ms)
+		LoadAssemblies (742ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (454ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (397ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (415ms)
+			ProcessInitializeOnLoadAttributes (772ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.2 MB). Loaded Objects now: 6964.
+Memory consumption went from 175.1 MB to 170.9 MB.
+Total: 16.042200 ms (FindLiveObjects: 1.297300 ms CreateObjectMapping: 1.183900 ms MarkObjects: 8.722900 ms  DeleteObjects: 4.835700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.511 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.901 seconds
+Domain Reload Profiling: 3415ms
+	BeginReloadAssembly (430ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (925ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (323ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (427ms)
+			ProcessInitializeOnLoadAttributes (976ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.2 MB). Loaded Objects now: 6967.
+Memory consumption went from 177.9 MB to 173.7 MB.
+Total: 20.114800 ms (FindLiveObjects: 1.728400 ms CreateObjectMapping: 1.596500 ms MarkObjects: 11.163100 ms  DeleteObjects: 5.624500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (4.0 MB). Loaded Objects now: 6967.
+Memory consumption went from 180.8 MB to 176.8 MB.
+Total: 24.192600 ms (FindLiveObjects: 1.426700 ms CreateObjectMapping: 2.692700 ms MarkObjects: 14.444900 ms  DeleteObjects: 5.625600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.920 seconds
+Refreshing native plugins compatible for Editor in 8.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.304 seconds
+Domain Reload Profiling: 4223ms
+	BeginReloadAssembly (442ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1302ms)
+		LoadAssemblies (916ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (593ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (523ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2305ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1642ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (499ms)
-			ProcessInitializeOnLoadAttributes (976ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (573ms)
+			ProcessInitializeOnLoadAttributes (871ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (41ms)
-Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6127 unused Assets / (3.7 MB). Loaded Objects now: 6868.
-Memory consumption went from 140.8 MB to 137.1 MB.
-Total: 16.013400 ms (FindLiveObjects: 1.298500 ms CreateObjectMapping: 1.421900 ms MarkObjects: 9.572500 ms  DeleteObjects: 3.718000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6120 unused Assets / (4.0 MB). Loaded Objects now: 6868.
-Memory consumption went from 143.7 MB to 139.7 MB.
-Total: 18.672600 ms (FindLiveObjects: 1.383600 ms CreateObjectMapping: 1.522000 ms MarkObjects: 11.486100 ms  DeleteObjects: 4.278800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.733 seconds
-Refreshing native plugins compatible for Editor in 7.86 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  7.241 seconds
-Domain Reload Profiling: 12972ms
-	BeginReloadAssembly (871ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (156ms)
-	RebuildCommonClasses (281ms)
-	RebuildNativeTypeToScriptingClass (72ms)
-	initialDomainReloadingComplete (155ms)
-	LoadAllAssembliesAndSetupDomain (4349ms)
-		LoadAssemblies (2282ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2581ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (5ms)
-			BuildScriptInfoCaches (2261ms)
-			ResolveRequiredComponents (230ms)
-	FinalizeReload (7243ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (6329ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (1633ms)
-			BeforeProcessingInitializeOnLoad (2118ms)
-			ProcessInitializeOnLoadAttributes (2230ms)
-			ProcessInitializeOnLoadMethodAttributes (296ms)
-			AfterProcessingInitializeOnLoad (46ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (108ms)
-Refreshing native plugins compatible for Editor in 8.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6127 unused Assets / (3.6 MB). Loaded Objects now: 6871.
-Memory consumption went from 146.3 MB to 142.7 MB.
-Total: 39.628400 ms (FindLiveObjects: 1.729300 ms CreateObjectMapping: 2.800200 ms MarkObjects: 20.860300 ms  DeleteObjects: 14.234000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.689 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.394 seconds
-Domain Reload Profiling: 6077ms
-	BeginReloadAssembly (642ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (136ms)
-	RebuildCommonClasses (150ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (139ms)
-	LoadAllAssembliesAndSetupDomain (1702ms)
-		LoadAssemblies (1298ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (749ms)
-			TypeCache.Refresh (25ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (623ms)
-			ResolveRequiredComponents (79ms)
-	FinalizeReload (3396ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2828ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (37ms)
-			BeforeProcessingInitializeOnLoad (930ms)
-			ProcessInitializeOnLoadAttributes (1645ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (55ms)
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6127 unused Assets / (4.0 MB). Loaded Objects now: 6874.
-Memory consumption went from 149.1 MB to 145.0 MB.
-Total: 24.504500 ms (FindLiveObjects: 1.676800 ms CreateObjectMapping: 2.329100 ms MarkObjects: 12.845300 ms  DeleteObjects: 7.649700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6121 unused Assets / (4.6 MB). Loaded Objects now: 6875.
-Memory consumption went from 152.0 MB to 147.4 MB.
-Total: 31.119300 ms (FindLiveObjects: 1.456400 ms CreateObjectMapping: 2.019400 ms MarkObjects: 16.901700 ms  DeleteObjects: 10.738800 ms)
+Unloading 6131 unused Assets / (3.8 MB). Loaded Objects now: 6970.
+Memory consumption went from 183.4 MB to 179.6 MB.
+Total: 21.446400 ms (FindLiveObjects: 2.870400 ms CreateObjectMapping: 3.233000 ms MarkObjects: 10.294200 ms  DeleteObjects: 5.045700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 322.331426 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1041b74b320c465161cf426242d510a5') in 0.0754648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.442 seconds
-Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.980 seconds
-Domain Reload Profiling: 6416ms
-	BeginReloadAssembly (726ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (33ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (167ms)
-	RebuildCommonClasses (133ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (1447ms)
-		LoadAssemblies (1177ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (585ms)
-			TypeCache.Refresh (33ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (508ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (3982ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3314ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (21ms)
-			BeforeProcessingInitializeOnLoad (843ms)
-			ProcessInitializeOnLoadAttributes (1672ms)
-			ProcessInitializeOnLoadMethodAttributes (673ms)
-			AfterProcessingInitializeOnLoad (89ms)
-			EditorAssembliesLoaded (10ms)
-		ExecutionOrderSort2 (2ms)
-		AwakeInstancesAfterBackupRestoration (139ms)
-Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6128 unused Assets / (4.1 MB). Loaded Objects now: 6878.
-Memory consumption went from 141.0 MB to 136.9 MB.
-Total: 22.815400 ms (FindLiveObjects: 2.104600 ms CreateObjectMapping: 2.339900 ms MarkObjects: 10.499500 ms  DeleteObjects: 7.869000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 26.354646 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0044892 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014282 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012553 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014418 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014477 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012356 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0022886 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012918 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012913 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009468 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012149 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015195 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012038 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011467 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011486 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012385 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010748 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015665 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012705 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001595 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0037701 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011973 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013116 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013455 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0022295 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015726 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014843 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010772 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014002 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012818 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001659 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0024765 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014605 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014909 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018152 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014209 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012489 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0019204 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011341 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011882 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015455 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016981 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017627 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0022538 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-  ERROR: Build asset version error: assets/scripts/player car/carinput.cs in SourceAssetDB has modification time of '2025-11-13T11:46:40.043027Z' while content on disk has modification time of '2025-11-13T11:47:06.4649036Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54cb17c3942155b48386e7f8eb28d1c6') in 0.0015888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.455 seconds
-Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.276 seconds
-Domain Reload Profiling: 4719ms
-	BeginReloadAssembly (652ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (126ms)
-	RebuildCommonClasses (147ms)
-	RebuildNativeTypeToScriptingClass (53ms)
-	initialDomainReloadingComplete (149ms)
-	LoadAllAssembliesAndSetupDomain (1441ms)
-		LoadAssemblies (1289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (521ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (452ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (2277ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1850ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (652ms)
-			ProcessInitializeOnLoadAttributes (1005ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (43ms)
-Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6128 unused Assets / (4.2 MB). Loaded Objects now: 6881.
-Memory consumption went from 141.1 MB to 136.9 MB.
-Total: 21.185800 ms (FindLiveObjects: 1.670400 ms CreateObjectMapping: 2.168800 ms MarkObjects: 11.545400 ms  DeleteObjects: 5.798600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.252351 seconds.
-  path: Assets/Scripts/Player Car/CarInput.cs
-  artifactKey: Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarInput.cs using Guid(cc8a46a70c0d4a940b29281ce9ba9ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fece98ed53ee99407549860f6b4e60e') in 0.0048427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6122 unused Assets / (3.2 MB). Loaded Objects now: 6882.
-Memory consumption went from 141.3 MB to 138.0 MB.
-Total: 30.046300 ms (FindLiveObjects: 1.719500 ms CreateObjectMapping: 2.308100 ms MarkObjects: 13.875200 ms  DeleteObjects: 12.139900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.691071 seconds.
+  Time since last request: 2691.951429 seconds.
   path: Assets/Scripts/Player Car/CarController.cs
   artifactKey: Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarController.cs using Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c5d279051eb2aa01b096a2e6c1c0c37') in 0.0017832 seconds
+Start importing Assets/Scripts/Player Car/CarController.cs using Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba462000c2e60cc1020d72280d5aacf') in 0.0094495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.837980 seconds.
+  path: Assets/Scripts/Player Car/CarView.cs
+  artifactKey: Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarView.cs using Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e438e9ba8efa4a1e789a8d7a59cf3e55') in 0.003521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 40.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (4.1 MB). Loaded Objects now: 6970.
+Memory consumption went from 148.5 MB to 144.4 MB.
+Total: 44.001900 ms (FindLiveObjects: 4.718800 ms CreateObjectMapping: 5.545500 ms MarkObjects: 20.915800 ms  DeleteObjects: 12.818500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.036 seconds
+Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.717 seconds
+Domain Reload Profiling: 5765ms
+	BeginReloadAssembly (806ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (209ms)
+	RebuildCommonClasses (207ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (1859ms)
+		LoadAssemblies (1462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (804ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (9ms)
+			BuildScriptInfoCaches (688ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (2719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (685ms)
+			ProcessInitializeOnLoadAttributes (1251ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (66ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.4 MB). Loaded Objects now: 6973.
+Memory consumption went from 151.1 MB to 146.7 MB.
+Total: 36.505900 ms (FindLiveObjects: 3.892500 ms CreateObjectMapping: 4.029900 ms MarkObjects: 14.997100 ms  DeleteObjects: 13.581100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 231.280536 seconds.
+  path: Assets/Scripts/Player Car/CarModel.cs
+  artifactKey: Guid(0f89351417a26ea499ec73312817c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Car/CarModel.cs using Guid(0f89351417a26ea499ec73312817c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15c1752341b7a47d207a8259e51b4fda') in 0.0067658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.163077 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fabac6325f29abb525f24e92d10c8d73') in 2.0564569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.178576 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff0698b56f30161b507b33b09fb8db70') in 0.2514091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.335176 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be2b69031ff8243bc63655ff85e0fe2') in 0.2349839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.948920 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c14c466f052f1dfca496aebd35d6761') in 0.2622881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.828357 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d38c058652b908cdace5eafb5de124') in 0.2296576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.109617 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e6f9e88843c427a672f6faf4ac0f280') in 0.2996753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.617262 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(460f1adba4508d242a70c4d777b74637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(460f1adba4508d242a70c4d777b74637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4633360925f529f03d4067679cad2908') in 0.0221928 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.392 seconds
-Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.736 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.108 seconds
-Domain Reload Profiling: 5499ms
-	BeginReloadAssembly (574ms)
+- Finished resetting the current domain, in  3.399 seconds
+Domain Reload Profiling: 6145ms
+	BeginReloadAssembly (888ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (72ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (138ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (306ms)
 	RebuildCommonClasses (109ms)
 	RebuildNativeTypeToScriptingClass (36ms)
 	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (1581ms)
-		LoadAssemblies (1205ms)
+	LoadAllAssembliesAndSetupDomain (1623ms)
+		LoadAssemblies (1297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (650ms)
+		AnalyzeDomain (647ms)
 			TypeCache.Refresh (36ms)
-				TypeCache.ScanAssembly (4ms)
-			BuildScriptInfoCaches (564ms)
-			ResolveRequiredComponents (38ms)
-	FinalizeReload (3109ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (568ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (3401ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2569ms)
+		SetupLoadedEditorAssemblies (2746ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (20ms)
-			BeforeProcessingInitializeOnLoad (631ms)
-			ProcessInitializeOnLoadAttributes (1738ms)
-			ProcessInitializeOnLoadMethodAttributes (156ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			SetLoadedEditorAssemblies (27ms)
+			BeforeProcessingInitializeOnLoad (767ms)
+			ProcessInitializeOnLoadAttributes (1688ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (89ms)
+Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6132 unused Assets / (4.2 MB). Loaded Objects now: 6996.
+Memory consumption went from 148.6 MB to 144.4 MB.
+Total: 38.877800 ms (FindLiveObjects: 2.854400 ms CreateObjectMapping: 5.717700 ms MarkObjects: 16.276300 ms  DeleteObjects: 14.025000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.449 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.973 seconds
+Domain Reload Profiling: 5416ms
+	BeginReloadAssembly (702ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (181ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1503ms)
+		LoadAssemblies (1213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (615ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (539ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2975ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (607ms)
+			ProcessInitializeOnLoadAttributes (1464ms)
+			ProcessInitializeOnLoadMethodAttributes (238ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (1ms)
-		AwakeInstancesAfterBackupRestoration (50ms)
-Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (83ms)
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6129 unused Assets / (3.7 MB). Loaded Objects now: 6885.
-Memory consumption went from 141.2 MB to 137.5 MB.
-Total: 24.987300 ms (FindLiveObjects: 1.453500 ms CreateObjectMapping: 2.846200 ms MarkObjects: 15.092000 ms  DeleteObjects: 5.593800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6122 unused Assets / (3.7 MB). Loaded Objects now: 6885.
-Memory consumption went from 144.1 MB to 140.3 MB.
-Total: 39.769600 ms (FindLiveObjects: 2.352800 ms CreateObjectMapping: 3.204100 ms MarkObjects: 17.476600 ms  DeleteObjects: 16.733400 ms)
+Unloading 6131 unused Assets / (4.3 MB). Loaded Objects now: 6999.
+Memory consumption went from 151.2 MB to 146.9 MB.
+Total: 48.263800 ms (FindLiveObjects: 6.102100 ms CreateObjectMapping: 5.624300 ms MarkObjects: 20.163700 ms  DeleteObjects: 16.368100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 64.778571 seconds.
-  path: Assets/Scripts/Player Car/CarController.cs
-  artifactKey: Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarController.cs using Guid(978923c09c8aab64aa860055f47b5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a4f2b8d5196fe7382c7b83cb53b219') in 0.005887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 219.393298 seconds.
+  path: Assets/Prefabs/Electric Truck Model.prefab
+  artifactKey: Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Electric Truck Model.prefab using Guid(5ada9796a5e50994ca54d25b54fb6fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bedc7db45f21e5b2cca6239419929781') in 2.0305612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 544
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6123 unused Assets / (3.8 MB). Loaded Objects now: 6886.
-Memory consumption went from 141.4 MB to 137.6 MB.
-Total: 22.069200 ms (FindLiveObjects: 1.528100 ms CreateObjectMapping: 2.088000 ms MarkObjects: 11.870600 ms  DeleteObjects: 6.579200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 41.344131 seconds.
-  path: Assets/Scripts/Player Car/CarView.cs
-  artifactKey: Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Car/CarView.cs using Guid(4d686e2f8065bc84db511c5980d01674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f458c1225e018fa85c219f8bc86ec531') in 0.0032415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6123 unused Assets / (4.0 MB). Loaded Objects now: 6886.
-Memory consumption went from 141.4 MB to 137.4 MB.
-Total: 30.285600 ms (FindLiveObjects: 1.538400 ms CreateObjectMapping: 1.749200 ms MarkObjects: 14.729300 ms  DeleteObjects: 12.265800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
