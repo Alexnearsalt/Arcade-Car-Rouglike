@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 327
     height: 956
   m_SerializedDataModeController:
@@ -444,23 +444,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f25f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: e691ffffba96ffff72a3ffff32c8ffff76f6ffff78f6ffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Electric Truck Model
-        m_OriginalName: Electric Truck Model
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -31294
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -492,8 +492,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 328
-    y: 79
+    x: 329
+    y: 24
     width: 1546
     height: 956
   m_SerializedDataModeController:
@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -6.303827, y: 0.6064056, z: -30.42096}
+    m_Target: {x: 4.497768, y: 6.9309454, z: -25.685852}
     speed: 2
     m_Value: {x: -6.303827, y: 0.6064056, z: -30.42096}
   m_RenderMode: 0
@@ -1070,13 +1070,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1515209, y: 0.536721, z: -0.098667614, w: -0.824189}
+    m_Target: {x: -0.13955207, y: 0.75199103, z: -0.16881375, w: -0.6217676}
     speed: 2
-    m_Value: {x: -0.15151705, y: 0.53670734, z: -0.09866511, w: -0.8241681}
+    m_Value: {x: -0.1515209, y: 0.536721, z: -0.098667614, w: -0.824189}
   m_Size:
-    m_Target: 10.493095
+    m_Target: 3.8685272
     speed: 2
-    m_Value: 10.9875345
+    m_Value: 10.493095
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1176,7 +1176,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 127}
     m_SelectedIDs: 7ead0000
     m_LastClickedID: 44414
-    m_ExpandedIDs: 000000000eac000048ad000020c9000060ca0000bcca0000c2ca0000c6cc000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000036be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1205,7 +1205,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000eac0000
+    m_ExpandedIDs: 0000000036be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1061
+    y: 1006
     width: 1875
     height: 293
   m_SerializedDataModeController:
@@ -1320,8 +1320,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1876
-    y: 79
+    x: 1877
+    y: 24
     width: 683
     height: 1275
   m_SerializedDataModeController:
