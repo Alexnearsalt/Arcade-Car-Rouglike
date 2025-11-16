@@ -1,14 +1,29 @@
 using UnityEngine;
+using UnityEngine.Events;
+
 
 public class Checkpoint : MonoBehaviour
 {
-    private OnTriggerEnter(Collider collider)
-    {
-        var base = collider.TryGetComponent<Base>();
+    [SerializeField] private int CheckpointID;
+    private int currentCar;
 
-        if (base is not null)
+    public int CurrentCar
+    {
+        get => currentCar;
+        set => currentCar = value;
+    }
+    
+    public UnityEvent TriggerEntered;
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        var carBody = collider.GetComponent<CarBody>();
+    
+        if (carBody is not null)
         {
-            base.TriggerEnter();
+            CurrentCar = carBody.ID;
+            TriggerEntered.Invoke();
+            //return;
         }
     }
 }

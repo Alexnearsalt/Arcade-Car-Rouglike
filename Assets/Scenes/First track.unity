@@ -352,6 +352,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2169566235129075570, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 84941890}
     - targetCorrespondingSourceObject: {fileID: 7479570644642067506, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
@@ -359,6 +362,24 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
+--- !u!1 &84941889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2169566235129075570, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
+  m_PrefabInstance: {fileID: 84941888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &84941890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84941889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff61dda6c7869e44a323353e06eab11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carID: 0
 --- !u!1 &108085503
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1012,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1613162180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613162182}
+  - component: {fileID: 1613162181}
+  m_Layer: 0
+  m_Name: Checkpoint manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1613162181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613162180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5afc99729c6a04685eec01d5f42d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoints: []
+  NewCheckpointRiched:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1613162182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613162180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.45245, y: 7.29307, z: -15.88505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1646021928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1072,7 @@ GameObject:
   - component: {fileID: 1646021931}
   - component: {fileID: 1646021930}
   - component: {fileID: 1646021929}
+  - component: {fileID: 1646021933}
   m_Layer: 0
   m_Name: Start checkpoint
   m_TagString: Untagged
@@ -1099,6 +1169,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1646021933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646021928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a556abc295eabee4fb3dba1a973dca37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckpointID: 0
+  TriggerEntered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1817236226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,6 +1426,7 @@ GameObject:
   - component: {fileID: 1913986184}
   - component: {fileID: 1913986183}
   - component: {fileID: 1913986182}
+  - component: {fileID: 1913986186}
   m_Layer: 0
   m_Name: checkpoint 1
   m_TagString: Untagged
@@ -1436,6 +1523,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913986186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913986181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a556abc295eabee4fb3dba1a973dca37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckpointID: 0
+  TriggerEntered:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1961664185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,3 +2934,4 @@ SceneRoots:
   - {fileID: 79615098}
   - {fileID: 1818518384}
   - {fileID: 935233714}
+  - {fileID: 1613162182}
