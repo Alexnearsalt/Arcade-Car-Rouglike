@@ -6,14 +6,17 @@ public class Checkpoint : MonoBehaviour
 {
     [SerializeField] private int CheckpointID;
     private int currentCar;
-
+    public int ID
+    {
+        get => CheckpointID;
+    }
     public int CurrentCar
     {
         get => currentCar;
         set => currentCar = value;
     }
     
-    public UnityEvent TriggerEntered;
+    public UnityEvent<Checkpoint> TriggerEntered;
 
     private void OnTriggerEnter(Collider collider)
     {
@@ -22,8 +25,7 @@ public class Checkpoint : MonoBehaviour
         if (carBody is not null)
         {
             CurrentCar = carBody.ID;
-            TriggerEntered.Invoke();
-            //return;
+            TriggerEntered.Invoke(this);
         }
     }
 }

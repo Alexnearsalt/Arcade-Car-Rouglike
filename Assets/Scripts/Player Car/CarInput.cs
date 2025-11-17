@@ -61,7 +61,7 @@ public class CarInput : MonoBehaviour, CarButtons.ICarActions
 
     public void OnLook(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnHandbrake(InputAction.CallbackContext context)
@@ -84,36 +84,36 @@ public class CarInput : MonoBehaviour, CarButtons.ICarActions
 
     public void OnLeftTurnSignal(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnRightTurnSignal(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnHazardLights(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnLowBeamLight(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnHighBeamLight(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnSwitchCamera(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     public void OnRestart(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 }
