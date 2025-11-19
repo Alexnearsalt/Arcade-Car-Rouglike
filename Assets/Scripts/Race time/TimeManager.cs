@@ -7,11 +7,21 @@ using System.Linq;
 public class TimeManager : MonoBehaviour
 {
     [SerializeField] private List<Checkpoint> checkpoints;
+    public UnityEvent LapEnded;
     private int currentCheckpoint = -1;
+    private float currentTime;
     private float startTime;
     private float lapTime;
-    // public UnityEvent NewCheckpointRiched;
+    public float CurrentTime
+    {
+        get => currentTime;
+    }
 
+    public float LapTime
+    {
+        get => lapTime;
+    }
+    
     private void Awake()
     {
         foreach (var checkpoint in checkpoints)
@@ -33,7 +43,7 @@ public class TimeManager : MonoBehaviour
             else
             {
                 currentCheckpoint = checkpoint.ID;
-                Debug.Log(Time.time - startTime);
+                // Debug.Log(Time.time - startTime);
             }
         }
         
@@ -42,8 +52,17 @@ public class TimeManager : MonoBehaviour
             if (checkpoint.ID == 0 && currentCheckpoint == checkpoints.Last().ID)
             {
                 lapTime = Time.time - startTime;
-                Debug.Log(lapTime);
+                LapEnded.Invoke();
+                // Debug.Log(lapTime);
             }
+        }
+    }
+
+    private void Update()
+    {
+        if (startTime > 0)
+        {
+            currentTime = Time.time - startTime;
         }
     }
 }
