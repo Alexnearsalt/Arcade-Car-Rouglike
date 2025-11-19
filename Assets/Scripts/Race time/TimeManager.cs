@@ -8,6 +8,8 @@ public class TimeManager : MonoBehaviour
 {
     [SerializeField] private List<Checkpoint> checkpoints;
     public UnityEvent LapEnded;
+    public UnityEvent CheckpointReached;
+
     private int currentCheckpoint = -1;
     private float currentTime;
     private float startTime;
@@ -20,6 +22,16 @@ public class TimeManager : MonoBehaviour
     public float LapTime
     {
         get => lapTime;
+    }
+
+    public int CheckpointsAmount
+    {
+        get => checkpoints.Count;
+    }
+
+    public int CurrentCheckpoint
+    {
+        get => currentCheckpoint;
     }
     
     private void Awake()
@@ -38,11 +50,13 @@ public class TimeManager : MonoBehaviour
             {
                 startTime = Time.time;
                 currentCheckpoint = 0;
+                CheckpointReached.Invoke();
             }
             
             else
             {
-                currentCheckpoint = checkpoint.ID;
+                currentCheckpoint++;
+                CheckpointReached.Invoke();
                 // Debug.Log(Time.time - startTime);
             }
         }
@@ -52,6 +66,8 @@ public class TimeManager : MonoBehaviour
             if (checkpoint.ID == 0 && currentCheckpoint == checkpoints.Last().ID)
             {
                 lapTime = Time.time - startTime;
+                currentCheckpoint++;
+                CheckpointReached.Invoke();
                 LapEnded.Invoke();
                 // Debug.Log(lapTime);
             }
