@@ -357,6 +357,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7035255006963131277, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7312945916154521932, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -365,6 +369,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Electric Truck Model
       objectReference: {fileID: 0}
+    - target: {fileID: 7673704469963156435, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
+      propertyPath: activeUpgrades.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673704469963156435, guid: 5ada9796a5e50994ca54d25b54fb6fc7, type: 3}
+      propertyPath: 'activeUpgrades.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: cb5d500e85165e345a217778e101b13f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

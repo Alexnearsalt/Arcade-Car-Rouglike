@@ -41,7 +41,7 @@ public class CarView : MonoBehaviour
 
     private void HandleGearChanged(Enums.AutomaticGears gear)
     {
-        string text = gear switch
+        var text = gear switch
         {
             Enums.AutomaticGears.Reverse => "R",
             Enums.AutomaticGears.Neutral => "N",
@@ -55,8 +55,8 @@ public class CarView : MonoBehaviour
 
     private void HandleSpeedChanged(float speed)
     {
-        float absSpeed = Mathf.Abs(speed);
-        string s = absSpeed.ToString("F0");
+        var absSpeed = Mathf.Abs(speed);
+        var s = absSpeed.ToString("F0");
 
         if (currentSpeedTMP_UI != null) currentSpeedTMP_UI.text = s;
         if (currentSpeedTMP_Dashboard != null) currentSpeedTMP_Dashboard.text = s;

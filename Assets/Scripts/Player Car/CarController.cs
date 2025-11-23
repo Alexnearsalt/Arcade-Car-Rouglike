@@ -10,24 +10,16 @@ public class CarController : MonoBehaviour
     public WheelCollider rearLeftWheelCollider;
     public WheelCollider rearRightWheelCollider;
 
-    [Header("Settings")] 
-    public float maxForwardSpeed = 100f;
-    public float maxReverseSpeed = 30f;
-    public float horsePower = 1000f;
-    public float brakePower = 2000f;
-    public float handbrakeForce = 3000f;
-    public float maxSteerAngle = 30f;
-    public float steeringSpeed = 5f;
-    public float stopThreshold = 1f;
-    public float decelerationSpeed = 0.5f;
-
     [Header("Drive Type")] 
     public DriveTypes driveType = DriveTypes.RWD;
     
+    //Порог остановки
+    public float stopThreshold = 1f;
     public CarModel Model { get; private set; } = new CarModel();
-
+    
     private WheelCollider[] _wheels;
-
+    
+    public CarStatsRuntime Stats { get; private set; }
     private void Awake()
     {
         _wheels = new WheelCollider[]
@@ -43,10 +35,13 @@ public class CarController : MonoBehaviour
             Debug.LogError("VehicleRB reference is missing for CarController!");
         }
     }
-
+    public void ApplyStats(CarStatsRuntime stats)
+    {
+        Stats = stats;
+    }
     public void ToggleEngine()
     {
-        bool newState = !Model.IsStarted;
+        var newState = !Model.IsStarted;
         Model.SetEngineState(newState);
 
         if (!newState)
@@ -64,7 +59,7 @@ public class CarController : MonoBehaviour
 
     public void SetSteer(float value)
     {
-        Model.TargetSteerAngle = value * maxSteerAngle;
+        Model.TargetSteerAngle = value * Stats.MaxSteerAngle;
         Model.SetSteerInput(value);
     }
 
@@ -109,23 +104,23 @@ public class CarController : MonoBehaviour
     {
         if (!Model.IsStarted) return;
 
-        float acc = Model.AccelerationInput;
-        float currentSpeed = Model.CurrentSpeed;
+        var acc = Model.AccelerationInput;
+        var currentSpeed = Model.CurrentSpeed;
 
         if (Model.CurrentGear == AutomaticGears.Drive)
         {
-            float speedFactor = Mathf.InverseLerp(0, maxForwardSpeed, currentSpeed);
-            float currentMotorTorque = Mathf.Lerp(horsePower, 0, speedFactor);
+            float speedFactor = Mathf.InverseLerp(0, Stats.MaxForwardSpeed, currentSpeed);
+            float currentMotorTorque = Mathf.Lerp(Stats.HorsePower, 0, speedFactor);
 
-            if (acc > 0f && currentSpeed < maxForwardSpeed)
+            if (acc > 0f && currentSpeed < Stats.MaxForwardSpeed)
                 ApplyMotorTorque(currentMotorTorque * acc);
             else
                 ApplyMotorTorque(0f);
         }
         else if (Model.CurrentGear == AutomaticGears.Reverse)
         {
-            if (acc > 0f && currentSpeed > -maxReverseSpeed)
-                ApplyMotorTorque(-horsePower);
+            if (acc > 0f && currentSpeed > -Stats.MaxReverseSpeed)
+                ApplyMotorTorque(-Stats.HorsePower);
             else
                 ApplyMotorTorque(0f);
         }
@@ -160,11 +155,11 @@ public class CarController : MonoBehaviour
 
     private void HandleBraking()
     {
-        float brake = Model.BrakeInput;
+        var brake = Model.BrakeInput;
 
         if (brake > 0f)
         {
-            float torque = brake * brakePower;
+            float torque = brake * Stats.BrakePower;
             frontLeftWheelCollider.brakeTorque = torque;
             frontRightWheelCollider.brakeTorque = torque;
         }
@@ -177,14 +172,14 @@ public class CarController : MonoBehaviour
 
     private void HandleHandbrake()
     {
-        float hb = Model.HandbrakeInput;
+        var hb = Model.HandbrakeInput;
 
         if (hb > 0f)
         {
             rearLeftWheelCollider.motorTorque = 0;
             rearRightWheelCollider.motorTorque = 0;
 
-            float torque = hb * handbrakeForce;
+            float torque = hb * Stats.HandbrakeForce;
             rearLeftWheelCollider.brakeTorque = torque;
             rearRightWheelCollider.brakeTorque = torque;
         }
@@ -197,14 +192,14 @@ public class CarController : MonoBehaviour
 
     private void HandleSteering()
     {
-        float currentSpeed = Model.CurrentSpeed;
-        float adjustedSpeedFactor = Mathf.InverseLerp(20, maxForwardSpeed, currentSpeed);
-        float adjustedTurnAngle = Model.TargetSteerAngle * (1 - adjustedSpeedFactor);
+        var currentSpeed = Model.CurrentSpeed;
+        var adjustedSpeedFactor = Mathf.InverseLerp(20, Stats.MaxForwardSpeed, currentSpeed);
+        var adjustedTurnAngle = Model.TargetSteerAngle * (1 - adjustedSpeedFactor);
 
         Model.CurrentSteerAngle = Mathf.Lerp(
             Model.CurrentSteerAngle,
             adjustedTurnAngle,
-            Time.deltaTime * steeringSpeed
+            Time.deltaTime * Stats.SteeringSpeed
         );
 
         frontLeftWheelCollider.steerAngle = Model.CurrentSteerAngle;
@@ -221,7 +216,7 @@ public class CarController : MonoBehaviour
         {
 #if UNITY_6000_0_OR_NEWER
             vehicleRB.linearVelocity =
-                Vector3.Lerp(vehicleRB.linearVelocity, Vector3.zero, Time.deltaTime * decelerationSpeed);
+                Vector3.Lerp(vehicleRB.linearVelocity, Vector3.zero, Time.deltaTime * Stats.DecelerationSpeed);
 #else
             vehicleRB.velocity =
                 Vector3.Lerp(vehicleRB.velocity, Vector3.zero, Time.deltaTime * decelerationSpeed);
