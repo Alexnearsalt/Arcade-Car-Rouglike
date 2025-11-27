@@ -39,7 +39,10 @@ public class TimeManager : MonoBehaviour
         foreach (var checkpoint in checkpoints)
         {
             checkpoint.TriggerEntered.AddListener(CheckpointTriggered);
+            checkpoint.gameObject.SetActive(false);
         }
+        
+        checkpoints.ElementAt(0).gameObject.SetActive(true);
     }
 
     private void CheckpointTriggered(Checkpoint checkpoint)
@@ -51,14 +54,34 @@ public class TimeManager : MonoBehaviour
                 startTime = Time.time;
                 currentCheckpoint = 0;
                 CheckpointReached.Invoke();
+                
+                checkpoints.ElementAt(currentCheckpoint).gameObject.SetActive(false);
+                checkpoints.ElementAt(currentCheckpoint +1).gameObject.SetActive(true);
             }
-            
+
             else
             {
-                currentCheckpoint++;
-                CheckpointReached.Invoke();
-                // Debug.Log(Time.time - startTime);
+                if (checkpoint.ID == checkpoints.Last().ID)
+                {
+                    currentCheckpoint++;
+                    CheckpointReached.Invoke();
+                    // Debug.Log(Time.time - startTime);
+                    
+                    checkpoints.ElementAt(currentCheckpoint).gameObject.SetActive(false);
+                    checkpoints.ElementAt(0).gameObject.SetActive(true);
+                }
+
+                else
+                {
+                    currentCheckpoint++;
+                    CheckpointReached.Invoke();
+                    // Debug.Log(Time.time - startTime);
+                
+                    checkpoints.ElementAt(currentCheckpoint).gameObject.SetActive(false);
+                    checkpoints.ElementAt(currentCheckpoint +1).gameObject.SetActive(true);
+                }
             }
+            
         }
         
         else
@@ -70,6 +93,8 @@ public class TimeManager : MonoBehaviour
                 CheckpointReached.Invoke();
                 LapEnded.Invoke();
                 // Debug.Log(lapTime);
+                
+                checkpoints.ElementAt(0).gameObject.SetActive(false);
             }
         }
     }
