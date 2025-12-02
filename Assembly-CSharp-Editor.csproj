@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <None Include="Assets\NuGet\Editor\NuGetForUnity.PluginAPI.xml" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity 6000.1.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -439,6 +440,15 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGetForUnity.PluginAPI">
+      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\NuGet\Editor\NuGetForUnity.PluginAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NugetForUnity">
+      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\NuGet\Editor\NugetForUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\Packages\Newtonsoft.Json.13.0.4\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity 6000.1.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>

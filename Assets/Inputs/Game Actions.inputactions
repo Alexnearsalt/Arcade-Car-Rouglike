@@ -1,0 +1,34 @@
+{
+    "name": "Game Actions",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "66da74f3-2c87-4b97-9b22-226a8dbb8921",
+            "actions": [
+                {
+                    "name": "Open Menu",
+                    "type": "Button",
+                    "id": "820af27a-fa62-467a-bea7-d11e6934c24e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3a3b24dc-7a73-4868-9d27-a6e7b2c68c83",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
