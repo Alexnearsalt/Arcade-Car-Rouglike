@@ -417,6 +417,9 @@
     <Reference Include="nunit.framework">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\Packages\Newtonsoft.Json.13.0.4\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -435,20 +438,17 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="NuGetForUnity.PluginAPI">
+      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\NuGet\Editor\NuGetForUnity.PluginAPI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
     </Reference>
-    <Reference Include="NuGetForUnity.PluginAPI">
-      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\NuGet\Editor\NuGetForUnity.PluginAPI.dll</HintPath>
-    </Reference>
     <Reference Include="NugetForUnity">
       <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\NuGet\Editor\NugetForUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>C:\Users\usolt\OneDrive\Рабочий стол\Unity учебный проект\Arcade Car Rouglike\Assets\Packages\Newtonsoft.Json.13.0.4\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity 6000.1.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
