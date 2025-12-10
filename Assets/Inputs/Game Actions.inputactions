@@ -6,7 +6,7 @@
             "id": "66da74f3-2c87-4b97-9b22-226a8dbb8921",
             "actions": [
                 {
-                    "name": "Open Menu",
+                    "name": "OpenMenu",
                     "type": "Button",
                     "id": "820af27a-fa62-467a-bea7-d11e6934c24e",
                     "expectedControlType": "",
@@ -23,7 +23,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Open Menu",
+                    "action": "OpenMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
