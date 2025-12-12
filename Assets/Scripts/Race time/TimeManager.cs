@@ -6,6 +6,7 @@ using System.Linq;
 
 public class TimeManager : MonoBehaviour
 {
+    [SerializeField] private int trackID;
     [SerializeField] private List<Checkpoint> checkpoints;
     public UnityEvent LapEnded;
     public UnityEvent CheckpointReached;
@@ -88,15 +89,34 @@ public class TimeManager : MonoBehaviour
         {
             if (checkpoint.ID == 0 && currentCheckpoint == checkpoints.Last().ID)
             {
-                lapTime = Time.time - startTime;
+                OnLapEnded();
                 currentCheckpoint++;
                 CheckpointReached.Invoke();
-                LapEnded.Invoke();
                 // Debug.Log(lapTime);
                 
                 checkpoints.ElementAt(0).gameObject.SetActive(false);
             }
         }
+    }
+
+    private void OnLapEnded()
+    {
+        lapTime = Time.time - startTime;
+        LapEnded.Invoke();
+        var tracksData = GameLoadSave.gameState.tracksData;
+        var track = tracksData.FirstOrDefault(x => x.trackID == trackID);
+        if (track.isTimeSet)
+        {
+            if (track.bestLapTime > lapTime)
+                track.bestLapTime = lapTime;
+        }
+        else
+        {
+            track.isTimeSet = true;
+            track.bestLapTime = lapTime;
+        }
+        
+        GameLoadSave.SaveState();
     }
 
     private void Update()
