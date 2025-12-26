@@ -58,19 +58,19 @@
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Demo\HideCursor.cs" />
     <Compile Include="Assets\Scripts\Progress\ProgressController.cs" />
     <Compile Include="Assets\Audio\VolumeSave.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelsMenu.cs" />
     <Compile Include="Assets\Scripts\Race time\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\EntryPoint\Menu\StartButton.cs" />
     <Compile Include="Assets\Audio\VolumeBootstrap.cs" />
     <Compile Include="Assets\Scripts\UI\ESC menu\Resolution\ResolutionBootstrap.cs" />
     <Compile Include="Assets\Inputs\Car Buttons.cs" />
     <Compile Include="Assets\Scripts\Race time\TimeManager.cs" />
-    <Compile Include="Assets\Scripts\Player Car\CarSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarController.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarUpgradeManager.cs" />
     <Compile Include="Assets\Scripts\Player Car\UpgradeBootstrap.cs" />
-    <Compile Include="Assets\Scripts\UI\StartButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Enums\CameraViews.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealCarController.cs" />
@@ -123,7 +123,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\UI\RaceTimer.cs" />
-    <Compile Include="Assets\Scripts\Player Car\CarFactory.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarScriptables\CarUpgrade.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\GameLoadSave.cs" />
@@ -1016,6 +1015,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>C:\UnityProjects\Arcade Car Rouglike\Arcade-Car-Rouglike\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:\UnityProjects\Arcade Car Rouglike\Arcade-Car-Rouglike\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>C:\UnityProjects\Arcade Car Rouglike\Arcade-Car-Rouglike\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
