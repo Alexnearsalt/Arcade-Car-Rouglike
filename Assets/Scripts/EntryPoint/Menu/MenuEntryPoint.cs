@@ -7,6 +7,7 @@ public class MenuEntryPoint : MonoBehaviour
     [SerializeField] private GameObject eventSystem;
     [SerializeField] private GameObject music;
     [SerializeField] private GameObject settingsMenu;
+    [SerializeField] private GameObject shopMenu;
     [SerializeField] private GameObject mainMenu;
     
     
@@ -23,6 +24,7 @@ public class MenuEntryPoint : MonoBehaviour
         music = Instantiate(music);
         settingsMenu = Instantiate(settingsMenu);
         mainMenu = Instantiate(mainMenu);
+        
         yield return null;
     }
 }

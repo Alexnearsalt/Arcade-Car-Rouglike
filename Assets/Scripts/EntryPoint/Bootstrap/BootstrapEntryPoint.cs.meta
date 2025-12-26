@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 46011c95cdf8ee64f968dd018883fb6f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - volumeBootstrap: {fileID: 4480594907410585127, guid: bead615dee610524a8fb3a7b50332258, type: 3}
+  - resolutionBootstrap: {fileID: 7589473561164099067, guid: b521862e646f339429451c9f6a668e2e, type: 3}
+  - progressController: {fileID: 1683793523395537496, guid: 4de16649fe011b149bb6308bc315d7e8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

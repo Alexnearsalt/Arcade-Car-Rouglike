@@ -5,6 +5,7 @@ public class CarUpgradeManager : MonoBehaviour
 {
     [SerializeField] private CarDefault baseStats;
     [SerializeField] private List<CarUpgrade> activeUpgrades = new List<CarUpgrade>();
+    [SerializeField] private List<CarUpgrade> allUpgrades = new List<CarUpgrade>();
 
     public CarStatsRuntime RuntimeStats { get; private set; }
 
@@ -17,7 +18,23 @@ public class CarUpgradeManager : MonoBehaviour
             baseStats = GetComponent<CarDefault>();
         }
         carController = GetComponent<CarController>();
+        LoadUpgrades();
         RecalculateStats();
+    }
+    
+    private void LoadUpgrades()
+    {
+        activeUpgrades.Clear();
+
+        var progress = ProgressManager.Instance;
+        if (progress == null) return;
+
+        foreach (var upgrade in allUpgrades)
+        {
+            if (upgrade == null) continue;
+            if (progress.HasUpgrade(upgrade.UpgradeId))
+                activeUpgrades.Add(upgrade);
+        }
     }
 
     public void AddUpgrade(CarUpgrade upgrade)

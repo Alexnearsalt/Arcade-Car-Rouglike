@@ -8,6 +8,8 @@ public class BootstrapEntryPoint : MonoBehaviour
 {
     [SerializeField] private VolumeBootstrap volumeBootstrap;
     [SerializeField] private ResolutionBootstrap resolutionBootstrap;
+    [SerializeField] private ProgressController progressController;
+    
     private IEnumerator Start()
     {
         StartCoroutine(BindObjects());
@@ -22,6 +24,7 @@ public class BootstrapEntryPoint : MonoBehaviour
     {
         volumeBootstrap = Instantiate(volumeBootstrap);
         resolutionBootstrap = Instantiate(resolutionBootstrap);
+        progressController = Instantiate(progressController);
         yield return null;
     }
 }

@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7052a1e01119914a88633d4268e224a, type: 3}
-  m_Name: MaxSpeed x10
+  m_Name: speed +5
   m_EditorClassIdentifier: 
-  upgradeId: upgrade_0
-  displayName: MaxSpeed x10
-  description: "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442
-    \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u043D\u0430 x10"
+  upgradeId: upgrade_3
+  displayName: Speed +5
+  description: Speed +5
   icon: {fileID: 0}
-  price: 50
-  maxForwardSpeedMultiplier: 10
+  price: 10
+  maxForwardSpeedMultiplier: 1
   horsePowerMultiplier: 1
   brakePowerMultiplier: 1
   handbrakeForceMultiplier: 1

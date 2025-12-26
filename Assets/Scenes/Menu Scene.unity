@@ -151,6 +151,7 @@ MonoBehaviour:
   eventSystem: {fileID: 8170656933048094239, guid: 636ad563b6cb9ca43927f487d1766c02, type: 3}
   music: {fileID: 8790799014917351910, guid: d830fc13521b9cd46a291bf4ad22274b, type: 3}
   settingsMenu: {fileID: 7130314792044300197, guid: cb4dada293d5fae4da6da274ecdd6280, type: 3}
+  shopMenu: {fileID: 2416288901456023466, guid: 2f567c9892d603a4aabf7a8a0f7d86b9, type: 3}
   mainMenu: {fileID: 4385327597768159877, guid: 2c7022fe5318166499b327611105594c, type: 3}
 --- !u!4 &989272088
 Transform:

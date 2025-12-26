@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player Car\CarStatsRuntime.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Progress\ProgressModel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealWheelFrictionController.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealCameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Demo\HideCursor.cs" />
+    <Compile Include="Assets\Scripts\Progress\ProgressController.cs" />
     <Compile Include="Assets\Audio\VolumeSave.cs" />
     <Compile Include="Assets\Scripts\Race time\Checkpoint.cs" />
     <Compile Include="Assets\Audio\VolumeBootstrap.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Enums\CameraViews.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealCarController.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarModel.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopOffer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -78,8 +81,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Enums\LightBeam.cs" />
+    <Compile Include="Assets\Scripts\Race time\TrackData.cs" />
+    <Compile Include="Assets\Scripts\Progress\ProgressManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopButton.cs" />
+    <Compile Include="Assets\Scripts\EntryPoint\Bootstrap\BootstrapEntryPoint.cs" />
     <Compile Include="Assets\Audio\MusicController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -93,15 +101,18 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealLightController.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopSlot.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Enums\DriveTypes.cs" />
-    <Compile Include="Assets\Scripts\EntryPoint\BootstrapEntryPoint.cs" />
+    <Compile Include="Assets\Scripts\UI\ExitButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\UI\ESC menu\Resolution\AspectRatioController.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopModel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\EntryPoint\MenuEntryPoint.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopController.cs" />
     <Compile Include="Assets\Scripts\Enums\AutomaticGears.cs" />
     <Compile Include="Assets\Scripts\UI\ESC menu\ESCMenuInput.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarBody.cs" />
+    <Compile Include="Assets\Scripts\Progress\PlayerProgress.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Audio\VolumeData.cs" />
@@ -111,13 +122,18 @@
     <Compile Include="Assets\Scripts\UI\RaceTimer.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarScriptables\CarUpgrade.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\Scripts\GameLoadSave.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealSoundController.cs" />
+    <Compile Include="Assets\Scripts\Progress\ProgressSave.cs" />
+    <Compile Include="Assets\Scripts\EntryPoint\Menu\MenuEntryPoint.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Enums\AutomaticGears.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarScriptables\CarDefault.cs" />
+    <Compile Include="Assets\Scripts\Shop\CoinText.cs" />
     <Compile Include="Assets\Inputs\Game Actions.cs" />
+    <Compile Include="Assets\Scripts\GameState.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Ezereal Assets\Ezereal Car Controller\Help\Bed Rack placement.txt" />
