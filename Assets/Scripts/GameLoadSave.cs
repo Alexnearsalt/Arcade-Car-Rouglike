@@ -11,13 +11,6 @@ public static class GameLoadSave
 
     public static GameState LoadState()
     {
-        // var state = string.IsNullOrEmpty(path)
-        //     ? new GameState { tracksData = new List<TrackData>() }
-        //     : JsonConvert.DeserializeObject<GameState>(path);
-        //
-        // Debug.Log("Fully loaded state: " + JsonConvert.SerializeObject(state));
-        // return state;
-        //-------------------------------------------------
         if (!File.Exists(path))
             return null;
         
