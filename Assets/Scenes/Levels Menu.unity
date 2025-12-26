@@ -1578,7 +1578,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 457796280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 758621626}
+        m_TargetAssemblyTypeName: LevelUnlock, Assembly-CSharp
+        m_MethodName: Unlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &515215605
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,6 +2166,7 @@ GameObject:
   - component: {fileID: 758621625}
   - component: {fileID: 758621624}
   - component: {fileID: 758621623}
+  - component: {fileID: 758621626}
   m_Layer: 5
   m_Name: Locked
   m_TagString: Untagged
@@ -2219,6 +2232,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.08001709}
   m_SizeDelta: {x: 0, y: 0.15997}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &758621626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758621622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720a5cbf4ac5a8f4faf6ec25268165cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlockPrice: 0
+  locked: {fileID: 758621622}
 --- !u!1 &769302411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2531,7 @@ GameObject:
   - component: {fileID: 987614983}
   - component: {fileID: 987614982}
   - component: {fileID: 987614981}
+  - component: {fileID: 987614984}
   m_Layer: 5
   m_Name: Locked
   m_TagString: Untagged
@@ -2569,6 +2597,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.08001709}
   m_SizeDelta: {x: 0, y: 0.15997}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &987614984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987614980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720a5cbf4ac5a8f4faf6ec25268165cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlockPrice: 1000
+  locked: {fileID: 987614980}
 --- !u!1 &1174742312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,7 +4951,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2015275436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 987614984}
+        m_TargetAssemblyTypeName: LevelUnlock, Assembly-CSharp
+        m_MethodName: Unlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

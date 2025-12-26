@@ -50,6 +50,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\Progress\ProgressModel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\LevelUnlock.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealWheelFrictionController.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Demo\Restart.cs" />
@@ -71,8 +72,8 @@
     <Compile Include="Assets\Scripts\Player Car\CarController.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarUpgradeManager.cs" />
     <Compile Include="Assets\Scripts\Player Car\UpgradeBootstrap.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\Enums\CameraViews.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Ezereal Assets\Ezereal Car Controller\Scripts\EzerealCarController.cs" />
     <Compile Include="Assets\Scripts\Player Car\CarModel.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopOffer.cs" />

@@ -15,7 +15,7 @@ MonoBehaviour:
   upgradeId: upgrade_1
   displayName: +10 speed
   description: "\u0414\u0430\u0435\u0442 +10 \u043A \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0438"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: abe2be241a94f544e9bb17759b6595c6, type: 3}
   price: 20
   maxForwardSpeedMultiplier: 1
   horsePowerMultiplier: 1
