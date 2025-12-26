@@ -7940,7 +7940,7 @@ GameObject:
   - component: {fileID: 1485545559423157638}
   - component: {fileID: 6302485416404297406}
   m_Layer: 0
-  m_Name: Electric Truck Model
+  m_Name: Electric Truck Model 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8728,11 +8728,6 @@ MonoBehaviour:
   baseStats: {fileID: 11400000, guid: eb3b00175d3f93c46a9ce522a0671045, type: 2}
   activeUpgrades:
   - {fileID: 11400000, guid: cb5d500e85165e345a217778e101b13f, type: 2}
-  allUpgrades:
-  - {fileID: 11400000, guid: cb5d500e85165e345a217778e101b13f, type: 2}
-  - {fileID: 11400000, guid: 90fad1f74e83bd643ae09d6131f0a56a, type: 2}
-  - {fileID: 11400000, guid: 20e337763bc8d8a4cb3d2c103391fb7e, type: 2}
-  - {fileID: 11400000, guid: 444ed80ee2fc1f841a76059502900a8f, type: 2}
 --- !u!1 &8291698440252927348
 GameObject:
   m_ObjectHideFlags: 0
