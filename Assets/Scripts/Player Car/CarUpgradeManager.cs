@@ -24,11 +24,11 @@ public class CarUpgradeManager : MonoBehaviour
     
     private void LoadUpgrades()
     {
-        activeUpgrades.Clear();
-
         var progress = ProgressManager.Instance;
         if (progress == null) return;
 
+        activeUpgrades.Clear();
+        
         foreach (var upgrade in allUpgrades)
         {
             if (upgrade == null) continue;

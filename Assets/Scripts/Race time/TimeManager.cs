@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 
 public class TimeManager : MonoBehaviour
@@ -48,6 +49,11 @@ public class TimeManager : MonoBehaviour
 
     private void CheckpointTriggered(Checkpoint checkpoint)
     {
+        // if (checkpoint.ID == 1)
+        // {
+        //     OnLapEnded();
+        // }
+        
         if (checkpoint.ID == currentCheckpoint + 1)
         {
             if (checkpoint.ID == 0)
@@ -74,6 +80,7 @@ public class TimeManager : MonoBehaviour
 
                 else
                 {
+                    
                     currentCheckpoint++;
                     CheckpointReached.Invoke();
                     // Debug.Log(Time.time - startTime);
@@ -117,6 +124,9 @@ public class TimeManager : MonoBehaviour
         }
         
         GameLoadSave.SaveState();
+        
+        //Coroutine затемнение
+        SceneManager.LoadScene("Levels Menu");
     }
 
     private void Update()
