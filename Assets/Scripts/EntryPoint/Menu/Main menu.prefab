@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 1960442183413772162}
   - component: {fileID: 3460510648969437413}
   - component: {fileID: 8741848964444750918}
-  - component: {fileID: 4746221672065253146}
+  - component: {fileID: 6284312944310263923}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -394,9 +394,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4746221672065253146}
+      - m_Target: {fileID: 6284312944310263923}
         m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
-        m_MethodName: Button
+        m_MethodName: OnClickStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -406,7 +406,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4746221672065253146
+--- !u!114 &6284312944310263923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 872218571425632427}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38a2b1cec09a7d34e9f8944ffea97949, type: 3}
+  m_Script: {fileID: 11500000, guid: e005ff3509e15ab4883f0d83b3355333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1165623281590107913
