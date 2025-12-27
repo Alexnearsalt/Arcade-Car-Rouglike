@@ -15,11 +15,11 @@ MonoBehaviour:
   upgradeId: upgrade_4
   displayName: Speed +6
   description: Speed +6
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: abe2be241a94f544e9bb17759b6595c6, type: 3}
   price: 11
   maxForwardSpeedMultiplier: 1
   horsePowerMultiplier: 1
   brakePowerMultiplier: 1
   handbrakeForceMultiplier: 1
-  maxForwardSpeedAdd: 0
+  maxForwardSpeedAdd: 6
   horsePowerAdd: 0
