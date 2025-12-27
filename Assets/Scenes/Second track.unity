@@ -953,6 +953,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1360892655104449684, guid: 4758080c377df404e8ed92f52e43630b, type: 3}
+      propertyPath: m_Center.y
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7953512504258661229, guid: 4758080c377df404e8ed92f52e43630b, type: 3}
       propertyPath: m_Name
       value: checkpoint 2
@@ -1528,6 +1532,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 623235752693191412, guid: 4758080c377df404e8ed92f52e43630b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 623235752693191412, guid: 4758080c377df404e8ed92f52e43630b, type: 3}
       propertyPath: CheckpointID
       value: 8
       objectReference: {fileID: 0}
@@ -1750,6 +1758,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trackID: 2
+  timeFor1: 120
+  timeFor2: 60
+  timeFor3: 50
   checkpoints:
   - {fileID: 108987590}
   - {fileID: 1913986186}

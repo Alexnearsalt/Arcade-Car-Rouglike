@@ -1806,6 +1806,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trackID: 1
+  timeFor1: 120
+  timeFor2: 60
+  timeFor3: 50
   checkpoints:
   - {fileID: 108987590}
   - {fileID: 1913986186}

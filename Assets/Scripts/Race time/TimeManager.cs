@@ -2,20 +2,26 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine.SceneManagement;
 
 
 public class TimeManager : MonoBehaviour
 {
     [SerializeField] private int trackID;
+    [SerializeField] private float timeFor1;
+    [SerializeField] private float timeFor2;
+    [SerializeField] private float timeFor3;
     [SerializeField] private List<Checkpoint> checkpoints;
     public UnityEvent LapEnded;
     public UnityEvent CheckpointReached;
 
+    private ProgressController _progress;
     private int currentCheckpoint = -1;
     private float currentTime;
     private float startTime;
     private float lapTime;
+    
     public float CurrentTime
     {
         get => currentTime;
@@ -38,6 +44,8 @@ public class TimeManager : MonoBehaviour
     
     private void Awake()
     {
+        _progress = ProgressController.Instance;
+        
         foreach (var checkpoint in checkpoints)
         {
             checkpoint.TriggerEntered.AddListener(CheckpointTriggered);
@@ -112,16 +120,43 @@ public class TimeManager : MonoBehaviour
         LapEnded.Invoke();
         var tracksData = GameLoadSave.gameState.tracksData;
         var track = tracksData.FirstOrDefault(x => x.trackID == trackID);
+        var currentStars = 0;
+
         if (track.isTimeSet)
         {
             if (track.bestLapTime > lapTime)
+            {
                 track.bestLapTime = lapTime;
+            }
+            
+            
         }
         else
         {
             track.isTimeSet = true;
             track.bestLapTime = lapTime;
         }
+        
+        if (lapTime < timeFor3)
+        {
+            currentStars = 3;
+            _progress.Model.AddCoins(15);
+        }
+        else if(lapTime < timeFor2)
+        {
+            currentStars = 2;
+            _progress.Model.AddCoins(10);
+        }
+        else if(lapTime < timeFor1)
+        {
+            currentStars = 1;
+            _progress.Model.AddCoins(5);
+        }
+        
+        if (currentStars > track.stars)
+            track.stars = currentStars;
+        
+        
         
         GameLoadSave.SaveState();
         
